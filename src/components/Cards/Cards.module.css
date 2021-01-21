@@ -1,0 +1,36 @@
+.container {
+    margin: 50px 0;
+}
+
+.card {
+    margin: 0 2% !important;
+}
+
+.card:hover {
+    transform: scale(1.07);
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0, 110, 255, 0.5);
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0, 255, 34, 0.521);
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    
+}
+
+.deaths {
+    border-bottom: 10px solid crimson;
+    box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
+    
+}
+
+@media (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important;
+    }
+    
+}
